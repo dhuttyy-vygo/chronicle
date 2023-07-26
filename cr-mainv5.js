@@ -4,7 +4,6 @@ if (document.querySelector('.page-wrapper') && window.innerWidth >= 991) {
   let smoother = ScrollSmoother.create({
     smooth: 0.6,
     effects: true,
-    normalizeScroll: true,
     ignoreMobileResize: true,
     preventDefault: true,
   });
